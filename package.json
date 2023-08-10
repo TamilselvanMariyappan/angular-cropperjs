@@ -35,7 +35,7 @@
     "release:minor": "cd ./scripts && npm run release:minor",
     "release:patch": "cd ./scripts && npm run release:patch",
     "build:dev": "ng build angular-cropperjs",
-    "build:prod": "ng build angular-cropperjs --configuration production"
+    "build:prod": "ng build angular-cropperjs --configuration production && cp README.md dist/angular-cropperjs/README.md && cp LICENSE dist/angular-cropperjs/LICENSE"
   },
   "private": true,
   "dependencies": {
